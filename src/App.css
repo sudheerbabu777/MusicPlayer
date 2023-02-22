@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.banner-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 54px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0px;
+  padding-left: 50px;
+}
+
+.singer {
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-left: 50px;
+}
+
+.play-list {
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-left: 50px;
+}
+
+.play-container {
+  background-color: #152850;
+  height: 60vh;
+  padding: 8px;
+  margin: 0px;
+  overflow-y: auto;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1.4px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.search-bar {
+  padding: 8px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #cbd5e1;
+  background-color: transparent;
+  width: 350px;
+  margin-right: 8px;
+  outline: none;
+  border: none;
+}
+
+.play-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px;
+}
+
+.pop-container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 180px;
+  height: 120px;
+  margin-right: 18px;
+}
+
+.delete-container {
+  display: flex;
+  align-items: center;
+}
+
+.name-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.genre {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: #3b82f6;
+  margin-top: 8px;
+}
+
+.duration {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.no-songs {
+  font-family: 'Roboto';
+  font-size: 54px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
